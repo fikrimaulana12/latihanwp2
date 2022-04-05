@@ -45,6 +45,6 @@ class Latihan2 extends CI_Controller
         ];
 
         //kirim ke view
-        $this->load->view('output_matakuliah.html', $data);
+        $this->load->view('output_matakuliah.php', $data);
     }
 }
